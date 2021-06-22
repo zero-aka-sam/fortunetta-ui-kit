@@ -1,0 +1,21 @@
+.storybook-input {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border: 0;
+  outline: none;
+  background: #0a0b15;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.storybook-input--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.storybook-input--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.storybook-input--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}

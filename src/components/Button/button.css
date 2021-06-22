@@ -1,20 +1,20 @@
 .storybook-button {
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
-  border-radius: 3em;
   cursor: pointer;
   display: inline-block;
   line-height: 1;
+  border-radius: 8px;
+  color: #fff;
 }
 .storybook-button--primary {
   color: white;
-  background-color: #1ea7fd;
+  background: linear-gradient(142.65deg, #e63c45 -55%, #fdbb35 103.21%);
 }
 .storybook-button--secondary {
-  color: #333;
   background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  border: 2px solid #fdbb35;
 }
 .storybook-button--small {
   font-size: 12px;
