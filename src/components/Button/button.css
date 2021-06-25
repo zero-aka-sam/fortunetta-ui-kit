@@ -28,3 +28,8 @@
   font-size: 16px;
   padding: 12px 24px;
 }
+
+.storybook-button--main {
+  color: white;
+  background: linear-gradient(117.61deg, #E6813C -24.66%, #171A31 110.92%);
+}

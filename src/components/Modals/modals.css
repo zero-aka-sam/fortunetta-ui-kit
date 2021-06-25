@@ -1,0 +1,38 @@
+.modalContainer {
+  height: fit-content;
+  width: 295px;
+  padding: 1%;
+  background: #141729;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.modalHeader,
+.modalFooter {
+  display: flex;
+  align-items: center;
+}
+
+.modalImg {
+  margin-right: 1em;
+}
+
+.modalBody {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 3%;
+}
+
+p {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+  letter-spacing: 3%;
+  color: #d7d7d7;
+}
