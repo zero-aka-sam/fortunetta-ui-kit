@@ -12,40 +12,20 @@ export default {
   },
 } as Meta;
 
-// const Template: Story<TextProps> = (args) => <Text {...args} />;
+const Template: Story<TextProps> = (args) => <Text {...args} />;
 
-// export const Text1 = Template.bind({});
-// Text1.args = {
-//     type: "primarypara",
-//     number:"12",
-//     label:"primary para",
-// };
+export const Text1 = Template.bind({});
+Text1.args = {
+   variant:"primary",
+   label:"Hello there",
+   color:"red"
+};
 
-export const Default: React.FC = () => {
-    return (
-      <div>
-        <Text type="para" number="12" label="normal para"></Text>
-        <Text type="whitePara" number="12" label="white para"></Text> 
-        <Text type="secondarypara" number="12" label="secondary para"></Text> 
-        <Text type="primarypara" number="12" label="primary para"></Text> 
-        <Text type="label" number="12" label="label"></Text> 
-        <Text type="tag" number="12" label="tag"></Text> 
-        <Text type="error" number="12" label="error"></Text> 
-        <Text type="secondaryHead1" number="12" label="secondary Head 1"></Text> 
-        <Text type="secondaryHead2" number="12" label="secondary Head 2"></Text> 
+export const Text2 = Template.bind({});
+Text2.args = {
+   variant:"primary",
+   label:"Hello there",
+   fontSize:'24px'
+};
 
-        <Text type="primaryhead" number="14" label="primary head"></Text> 
-        <Text type="secondaryHead1" number="14" label="secondary Head 1"></Text> 
-        <Text type="secondaryHead2" number="14" label="secondary Head 2"></Text> 
-        <Text type="para" number="14" label="para"></Text> 
-        <Text type="error" number="14" label="error"></Text>
-
-        <Text type="para" number="16" label="para"></Text>   
-
-        <Text type="head" number="18" label="head"></Text> 
-        <Text type="head" number="20" label="head"></Text> 
-        <Text type="head" number="32" label="head"></Text> 
-      </div>
-    );
-  };
 

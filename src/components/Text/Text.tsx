@@ -2,21 +2,23 @@ import React from "react";
 import "./text.css";
 
 export interface TextProps {
-  type: string;
-  number: string;
+  variant: string;
+  color?:string;
+  fontSize?:string
   label: string;
-  onClick?: () => void;
 }
 
 export const Text: React.FC<TextProps> = ({
-  type,
-  number,
+  variant,
+  color,
+  fontSize='14',
   label,
   ...props
 }) => {
+
   return (
-    <div style={{background:"#141729", width:"200px",paddingTop:"1px", textAlign:"center", textTransform:"capitalize"}}>
-      <p className={`text-regular-${type}-${number}`}>{label}</p>
-    </div>
+   <p className={variant==="primary"?`primary_styles`:`secondary_styles`} style={{color:color,fontSize:fontSize}}>
+     {label}
+   </p>
   );
 };

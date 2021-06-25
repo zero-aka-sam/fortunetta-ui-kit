@@ -1,3 +1,12 @@
+.primary_styles_14 {
+  color: black;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  line-height: 18px;
+  font-weight: 400;
+}
+
 .text-regular-para-12 {
   color: #d7d7d7;
   font-style: normal;
@@ -35,7 +44,7 @@
 }
 
 .text-regular-label-12 {
-  color: #C7BEB7;
+  color: #c7beb7;
   font-style: normal;
   font-size: 12px;
   letter-spacing: 3%;
