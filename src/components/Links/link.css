@@ -1,0 +1,19 @@
+.nav-bar-links{
+    width: fit-content;
+    align-items: center;
+    padding: 3%;
+    color: #C7BEB7;
+    cursor: pointer;
+    background-color: #1D213C;
+    display: flex;
+}
+
+.nav-bar-links img{
+    margin-right: 7px;
+}
+
+.nav-bar-links:hover{
+    background-color: #0F111F;
+    border-bottom: 5px solid #FDBB35;
+    color: white;
+}
