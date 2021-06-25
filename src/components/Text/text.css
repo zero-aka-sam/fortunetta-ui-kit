@@ -1,0 +1,161 @@
+.text-regular-para-12 {
+  color: #d7d7d7;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 3%;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.text-regular-whitepara-12 {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 3%;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.text-regular-secondarypara-12 {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 3%;
+  line-height: 17.04px;
+  font-weight: 400;
+}
+
+.text-regular-primarypara-12 {
+  color: #e6813c;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 3%;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.text-regular-label-12 {
+  color: #C7BEB7;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 3%;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.text-regular-tag-12 {
+  color: #fdbb35;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 3%;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.text-regular-error-12 {
+  color: #f65151;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 3%;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.text-regular-secondaryHead1-12 {
+  color: #d7d7d7;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 3%;
+  line-height: 17.04px;
+  font-weight: 400;
+}
+
+.text-regular-secondaryHead2-12 {
+  color: #d7d7d7;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 3%;
+  line-height: 17.04px;
+  font-weight: 500;
+}
+
+.text-regular-primaryhead-14 {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 3%;
+  line-height: 19.88px;
+  font-weight: 400;
+}
+
+.text-regular-secondaryhead1-14 {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 3%;
+  line-height: 19.88px;
+  font-weight: 500;
+}
+
+.text-regular-secondaryhead2-14 {
+  color: #d7d7d7;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 3%;
+  line-height: 19.88px;
+  font-weight: 500;
+}
+
+.text-regular-para-14 {
+  color: #c7beb7;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 3%;
+  line-height: 19.88px;
+  font-weight: 400;
+}
+
+.text-regular-error-14 {
+  color: #f65151;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 3%;
+  line-height: 19.88px;
+  font-weight: 400;
+}
+
+.text-regular-para-16 {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 3%;
+  line-height: 22.72px;
+  font-weight: 500;
+}
+
+.text-regular-head-18 {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 3%;
+  line-height: 25.56px;
+  font-weight: 500;
+}
+
+.text-regular-head-20 {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: 3%;
+  line-height: 28.4px;
+  font-weight: 500;
+}
+
+.text-regular-head-32 {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 32px;
+  letter-spacing: 5%;
+  line-height: 45.44px;
+  font-weight: 500;
+}
