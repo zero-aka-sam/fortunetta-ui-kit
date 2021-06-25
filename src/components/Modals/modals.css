@@ -1,7 +1,7 @@
 .modalContainer {
   height: fit-content;
-  width: 295px;
-  padding: 1%;
+  width: 300px;
+  padding: 20px;
   background: #141729;
   border-radius: 5px;
   color: #ffffff;
@@ -14,7 +14,7 @@
 }
 
 .modalImg {
-  margin-right: 1em;
+  margin-right: 0.5em;
 }
 
 .modalBody {
@@ -35,4 +35,13 @@ p {
   font-size: 12px;
   letter-spacing: 3%;
   color: #d7d7d7;
+}
+
+.retry_btn {
+  background: #191d33;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 8px 1em;
+  display: flex;
+  align-items: center;
 }
