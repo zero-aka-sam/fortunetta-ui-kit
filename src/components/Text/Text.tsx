@@ -2,12 +2,12 @@ import React from "react";
 // import "./text.css";
 
 export interface TextProps {
-  variant: string;
+  variant?: string;
   color?: string;
   fontSize?: string;
-  label: string;
+  label?: string;
   fontWeight?: number;
-  lineHeight: string;
+  lineHeight?: string;
 }
 
 export const Text: React.FC<TextProps> = ({
@@ -19,7 +19,7 @@ export const Text: React.FC<TextProps> = ({
   label,
   ...props
 }) => {
-  return (
+  return ( 
     <div style={{ background: "black" }}>
       <p style={{ color: color, fontSize: fontSize, lineHeight: lineHeight, fontWeight:fontWeight }}>
         {label}

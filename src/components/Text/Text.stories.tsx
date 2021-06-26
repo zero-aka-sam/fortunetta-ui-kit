@@ -7,149 +7,103 @@ export default {
   title: "Text",
   component: Text,
   argTypes: {
-    // onClick: { action: "clicked" },
+    // color: {
+    //   name: "color",
+    //   table: {
+    //     type: {
+    //       summary: "string",
+    //       detail: "Color from the theme, or CSS color",
+    //     },
+    //     defaultValue: { summary: "#FFFFFF" },
+    //   },
+    //   control: {
+    //     type: null,
+    //   },
+    // },
+    // fontSize: {
+    //   name: "fontSize",
+    //   table: {
+    //     type: { summary: "string", detail: "Fontsize in px or em" },
+    //     defaultValue: { summary: "14px" },
+    //   },
+    //   control: {
+    //     type: null,
+    //   },
+    // },
+    // fontWeight: {
+    //   name: "fontWeight",
+    //   table: {
+    //     type: { summary: "number", detail: "fontWeight" },
+    //     defaultValue: { summary: 400 },
+    //   },
+    //   control: {
+    //     type: null,
+    //   },
+    // },
+    // label: {
+    //   name: "label",
+    //   table: {
+    //     type: {
+    //       summary: "string",
+    //       detail: "label",
+    //     },
+    //     defaultValue: { summary: "primary" },
+    //   },
+    //   control: {
+    //     type: null,
+    //   },
+    // },
+    // lineHeight: {
+    //   name: "lineHeight",
+    //   table: {
+    //     type: {
+    //       summary: "string",
+    //       detail: "lineHeight",
+    //     },
+    //     defaultValue: { summary: "18px" },
+    //   },
+    //   control: {
+    //     type: null,
+    //   },
+    // },
+    // variant: {
+    //   name: "variant",
+    //   table: {
+    //     type: {
+    //       summary: "string",
+    //       detail: "variant",
+    //     },
+    //     defaultValue: { summary: "primary" },
+    //   },
+    //   control: {
+    //     type: null,
+    //   },
+    // },
+    
   },
 } as Meta;
 
-const Template: Story<TextProps> = (args) => <Text {...args} />;
-
-export const primary12 = Template.bind({});
-primary12.args = {
-  variant: "primary",
-  label: "Hello there",
-  fontSize: "12px",
+export const Default: React.FC = () => {
+  return (
+    <div>
+      <Text label="default" ></Text>
+      <Text variant="primary" fontSize="12px" label="primary12" ></Text>
+      <Text variant="primary" label="primary14" ></Text>
+      <Text variant="primary" fontWeight= {600} label="primary14_W600" ></Text>
+      <Text variant="primary" fontSize="16px" lineHeight= "22.72px" fontWeight= {600} label="primary16_W600" ></Text>
+      <Text variant="primary" fontSize="18px" lineHeight= "25.56px" fontWeight= {600} label="primary18_W600" ></Text>
+      <Text variant="primary" fontSize="20px" lineHeight= "28.4px" fontWeight= {600} label="primary20_W600" ></Text>
+      <Text variant="primary" fontSize="32px" lineHeight= "45.44px" fontWeight= {600} label="primary32_W600" ></Text>
+      <Text variant="secondary" color= "#D7D7D7" fontSize="12px" label="secondary12"></Text>
+      <Text variant="secondary" color= "#D7D7D7" fontSize="12px" fontWeight= {600} label="secondary12_W600"></Text>
+      <Text variant="secondary" color= "#D7D7D7" label="secondary14"></Text>
+      <Text variant="secondary" color= "#D7D7D7" fontWeight= {600} label="secondary14_W600"></Text>
+      <Text variant="label" color= "#C7BEB7" fontSize="12px" label="label12"></Text>
+      <Text variant="label" color= "#C7BEB7" label="label14"></Text>
+      <Text variant="error" color= "#f65151" fontSize="12px" label="error12"></Text>
+      <Text variant="error" color= "#f65151" label="error14"></Text>
+      <Text variant="tag" color= "#e6813c" fontSize="12px" label="tag12"></Text>
+      <Text variant="tag" color= "#fdbb35" label="tag14"></Text>
+    </div>
+  );
 };
-
-export const primary14 = Template.bind({});
-primary14.args = {
-  variant: "primary",
-  label: "Hello there",
-};
-
-export const primary14_W600 = Template.bind({});
-primary14_W600.args = {
-  variant: "primary",
-  label: "Hello there",
-  fontWeight: 600
-};
-
-export const primary16 = Template.bind({});
-primary16.args = {
-  variant: "primary",
-  label: "Hello there",
-  fontSize: "16px",
-  lineHeight: "22.72px",
-  fontWeight: 600
-};
-
-export const primary18 = Template.bind({});
-primary18.args = {
-  variant: "primary",
-  label: "Hello there",
-  fontSize: "18px",
-  lineHeight: "25.56px",
-  fontWeight: 600
-};
-
-export const primary20 = Template.bind({});
-primary20.args = {
-  variant: "primary",
-  label: "Hello there",
-  fontSize: "20px",
-  lineHeight: "28.4px",
-  fontWeight: 600
-};
-
-export const primary32 = Template.bind({});
-primary32.args = {
-  variant: "primary",
-  label: "Hello there",
-  fontSize: "32px",
-  lineHeight: "45.44px",
-  fontWeight: 600
-};
-
-
-export const secondary12 = Template.bind({});
-secondary12.args = {
-  variant: "secondary",
-  label: "Hello there",
-  fontSize: "12px",
-  color: "#D7D7D7",
-};
-
-export const secondary12_W600 = Template.bind({});
-secondary12_W600.args = {
-  variant: "secondary",
-  label: "Hello there",
-  fontSize: "12px",
-  color: "#D7D7D7",
-  fontWeight: 600,
-};
-
-export const secondary14 = Template.bind({});
-secondary14.args = {
-  variant: "secondary",
-  label: "Hello there",
-  color: "#D7D7D7",
-};
-
-export const secondary14_W600 = Template.bind({});
-secondary14_W600.args = {
-  variant: "secondary",
-  label: "Hello there",
-  color: "#D7D7D7",
-  fontWeight: 600,
-};
-
-
-export const label12 = Template.bind({});
-label12.args = {
-  variant: "label",
-  label: "Hello there",
-  fontSize: "12px",
-  color: "#C7BEB7",
-};
-
-
-export const label14 = Template.bind({});
-label14.args = {
-  variant: "label",
-  label: "Hello there",
-  color: "#C7BEB7",
-};
-
-export const error12 = Template.bind({});
-error12.args = {
-  variant: "label",
-  label: "Hello there",
-  color: "#f65151",
-  fontSize: "12px",
-};
-
-export const error14 = Template.bind({});
-error14.args = {
-  variant: "label",
-  label: "Hello there",
-  color: "#f65151",
-};
-
-export const tag12 = Template.bind({});
-tag12.args = {
-  variant: "heading",
-  label: "Hello there",
-  color: "#e6813c",
-  fontSize: "12px",
-};
-
-export const tag14 = Template.bind({});
-tag14.args = {
-  variant: "tag",
-  label: "Hello there",
-  color: "#fdbb35",
-};
-
-
-
-
-

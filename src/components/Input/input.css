@@ -5,6 +5,7 @@
   background: #0a0b15;
   border-radius: 5px;
   color: #fff;
+  text-align: center;
 }
 
 .storybook-input--small {
@@ -18,4 +19,19 @@
 .storybook-input--large {
   font-size: 16px;
   padding: 12px 24px;
+}
+
+.inputIcons img {
+  position: absolute;
+}
+
+.inputIcons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icons {
+  padding: 10px;
+  color: green;
+  text-align: center;
 }

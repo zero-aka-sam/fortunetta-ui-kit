@@ -7,6 +7,8 @@
     size?: 'small' | 'medium' | 'large';
     type?:String,
     label: string;
+    isIcon?: boolean,
+    iconName?: string
   }
 
   /**
@@ -18,14 +20,20 @@
     type="text",
     backgroundColor,
     label,
+    iconName,
+    isIcon = false,
     ...props
   }) => {
+    const inputIcons = isIcon ? 'inputIcons' : '';
     return (
-      <input
+      <div className = {inputIcons}>
+        {isIcon ? <img src={iconName} alt = {iconName} className='icons' /> : ''}
+        <input
         type={`${type}`}
         className={['storybook-input', `storybook-input--${size}`].join(' ')}
         style={{ backgroundColor }}
         {...props}
       />
+      </div>
     );
   };
