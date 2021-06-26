@@ -90,10 +90,10 @@ export const Default: React.FC = () => {
       <Text variant="primary" fontSize="12px" label="primary12" ></Text>
       <Text variant="primary" label="primary14" ></Text>
       <Text variant="primary" fontWeight= {600} label="primary14_W600" ></Text>
-      <Text variant="primary" fontSize="16px" lineHeight= "22.72px" fontWeight= {600} label="primary16_W600" ></Text>
-      <Text variant="primary" fontSize="18px" lineHeight= "25.56px" fontWeight= {600} label="primary18_W600" ></Text>
-      <Text variant="primary" fontSize="20px" lineHeight= "28.4px" fontWeight= {600} label="primary20_W600" ></Text>
-      <Text variant="primary" fontSize="32px" lineHeight= "45.44px" fontWeight= {600} label="primary32_W600" ></Text>
+      <Text variant="primary" fontSize="16px" lineHeight= "22px" fontWeight= {600} label="primary16_W600" ></Text>
+      <Text variant="primary" fontSize="18px" lineHeight= "25px" fontWeight= {600} label="primary18_W600" ></Text>
+      <Text variant="primary" fontSize="20px" lineHeight= "28px" fontWeight= {600} label="primary20_W600" ></Text>
+      <Text variant="primary" fontSize="32px" lineHeight= "45px" fontWeight= {600} label="primary32_W600" ></Text>
       <Text variant="secondary" color= "#D7D7D7" fontSize="12px" label="secondary12"></Text>
       <Text variant="secondary" color= "#D7D7D7" fontSize="12px" fontWeight= {600} label="secondary12_W600"></Text>
       <Text variant="secondary" color= "#D7D7D7" label="secondary14"></Text>

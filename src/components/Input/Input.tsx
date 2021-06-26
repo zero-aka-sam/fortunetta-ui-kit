@@ -30,7 +30,7 @@
         {isIcon ? <img src={iconName} alt = {iconName} className='icons' /> : ''}
         <input
         type={`${type}`}
-        className={['storybook-input', `storybook-input--${size}`].join(' ')}
+        className={['storybook-input', `storybook-input--${size}`,isIcon&&'input_icon'].join(' ')}
         style={{ backgroundColor }}
         {...props}
       />

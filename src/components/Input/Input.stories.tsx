@@ -29,7 +29,6 @@ Small.args = {
 
 export const iconInput = Template.bind({});
 iconInput.args = {
-  size: 'large',
   isIcon: true,
   iconName: coins
 };
