@@ -1,7 +1,7 @@
 import React from "react";
-import { Story, Meta } from "@storybook/react";
+import { Story } from "@storybook/react";
 
-import { Modals, ModalsProps } from "./Modals";
+import { Modals } from "./Modals";
 
 
 export default {
@@ -10,9 +10,9 @@ export default {
   argTypes: {
     // onClick: { action: "clicked" },
   },
-} as Meta;
+} ;
 
-const Template: Story<ModalsProps> = (args) => <Modals {...args} />;
+const Template= (args) => <Modals {...args} />;
 
 export const Modal1 = Template.bind({});
 Modal1.args = {

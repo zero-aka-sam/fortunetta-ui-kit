@@ -1,20 +1,20 @@
 import React from "react";
-import { Story, Meta } from "@storybook/react";
+import { Story } from "@storybook/react";
 
-import { Link, LinkProps } from "./Link";
+import { Link } from "./Link";
 import roulette from '../../assets/icons/roulette.svg';
 import matchBetting from '../../assets/icons/matchBetting.svg';
 import coinFlip from '../../assets/icons/coinFlip.svg';
 
 export default {
-  title: "NavBar/Link",
+  title: "Components/Link",
   component: Link,
   argTypes: {
     onClick: { action: "clicked" },
   },
-} as Meta;
+} ;
 
-const Template: Story<LinkProps> = (args) => <Link {...args} />;
+const Template= (args) => <Link {...args} />;
 
 export const Link1 = Template.bind({});
 Link1.args = {

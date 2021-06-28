@@ -1,20 +1,8 @@
   import React from 'react';
   import './input.css';
 
-  export interface InputProps {
-    primary?: boolean;
-    backgroundColor?: string;
-    size?: 'small' | 'medium' | 'large';
-    type?:String,
-    label: string;
-    isIcon?: boolean,
-    iconName?: string
-  }
 
-  /**
-   * Primary UI component for user interaction
-   */
-  export const Input: React.FC<InputProps> = ({
+  export const Input = ({
     primary = false,
     size = 'medium',
     type="text",

@@ -8,16 +8,8 @@ import check_green from '../../assets/icons/check_green.svg'
 import errorImg from '../../assets/icons/error.svg'
 import refresh from '../../assets/icons/refresh.svg'
 
-export interface ModalsProps {
-  title: string;
-  variant:String,
-  modalDesc: string;
-  modalFooter: string;
-  error: boolean
-  onClick?: () => void;
-}
 
-export const Modals: React.FC<ModalsProps> = ({
+export const Modals= ({
   title,
   variant,
   modalDesc,

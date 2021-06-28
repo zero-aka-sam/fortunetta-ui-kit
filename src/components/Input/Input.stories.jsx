@@ -1,19 +1,19 @@
 import React from 'react';
-import { Story, Meta } from '@storybook/react';
+import { Story } from '@storybook/react';
 
-import { Input,InputProps } from './Input';
+import { Input } from './Input';
 
 import coins from '../../assets/icons/coins.svg'
 
 export default {
-  title: 'Example/Input',
+  title: 'Components/Input',
   component: Input,
   argTypes: {
     backgroundColor: { control: 'color' },
   },
-} as Meta;
+} ;
 
-const Template: Story<InputProps> = (args) => <Input {...args} />;
+const Template= (args) => <Input {...args} />;
 
 export const Primary = Template.bind({});
 

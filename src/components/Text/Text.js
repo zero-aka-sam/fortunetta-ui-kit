@@ -1,16 +1,8 @@
 import React from "react";
-// import "./text.css";
+import "./text.css";
 
-export interface TextProps {
-  variant?: string;
-  color?: string;
-  fontSize?: string;
-  label?: string;
-  fontWeight?: number;
-  lineHeight?: string;
-}
 
-export const Text: React.FC<TextProps> = ({
+export const Text = ({
   variant,
   color = "#FFFFFF",
   fontSize = "14px",
