@@ -3,8 +3,6 @@ import { Story } from '@storybook/react';
 
 import { Input } from './Input';
 
-import coins from '../../assets/icons/coins.svg'
-
 export default {
   title: 'Components/Input',
   component: Input,
@@ -25,10 +23,4 @@ Large.args = {
 export const Small = Template.bind({});
 Small.args = {
   size: 'small',
-};
-
-export const iconInput = Template.bind({});
-iconInput.args = {
-  isIcon: true,
-  iconName: coins
 };

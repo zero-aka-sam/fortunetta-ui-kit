@@ -1,6 +1,6 @@
 {
   "name": "fortunetta-ui-kit",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "A simple react component",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

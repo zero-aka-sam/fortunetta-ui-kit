@@ -1,8 +1,7 @@
 import React from "react";
 import "./text.css";
 
-
-export const Text = ({
+const Text = ({
   variant,
   color = "#FFFFFF",
   fontSize = "14px",
@@ -11,11 +10,20 @@ export const Text = ({
   label,
   ...props
 }) => {
-  return ( 
+  return (
     <div style={{ background: "black" }}>
-      <p style={{ color: color, fontSize: fontSize, lineHeight: lineHeight, fontWeight:fontWeight }}>
+      <p
+        style={{
+          color: color,
+          fontSize: fontSize,
+          lineHeight: lineHeight,
+          fontWeight: fontWeight,
+        }}
+      >
         {label}
       </p>
     </div>
   );
 };
+
+export default Text;
